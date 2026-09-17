@@ -1,12 +1,12 @@
-## 💻 Laptop Price Prediction
+# 💻 Laptop Price Prediction
 
-A Machine Learning web application that predicts the estimated price of a laptop based on its hardware specifications and configuration.
+A **Machine Learning web application** that predicts the estimated price of a laptop based on its hardware specifications and configuration.
 
-The project uses a trained Machine Learning model with a Streamlit interface to provide interactive laptop price predictions.
+The project uses a trained Machine Learning model with a **Streamlit** interface to provide interactive laptop price predictions.
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-👉 Laptop Price Predictor
+👉 **[Laptop Price Predictor](https://laptop-price-prediction-wiif.onrender.com/)**
 
 Try the deployed application online.
 
@@ -14,19 +14,19 @@ Try the deployed application online.
 
 Laptop prices depend on several factors such as:
 
-* Brand
-* Laptop type
-* Screen size
-* RAM
-* Operating system
-* Weight
-* CPU
-* GPU
-* Storage capacity
-* Storage type
-* Display resolution
-* Touchscreen support
-* IPS display
+* 🏷️ Brand
+* 💻 Laptop type
+* 📺 Screen size
+* 🧠 RAM
+* 🪟 Operating system
+* ⚖️ Weight
+* ⚙️ CPU
+* 🎮 GPU
+* 💾 Storage capacity
+* 💽 Storage type
+* 🖥️ Display resolution
+* 👆 Touchscreen support
+* ✨ IPS display
 
 This project uses these features to predict the estimated price of a laptop.
 
@@ -85,19 +85,19 @@ The dataset contains laptop specifications and their corresponding prices.
 
 ## ⚙️ Installation
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/syedziaulhaq980/laptop-price-prediction.git
 ```
 
-Navigate to the project directory:
+### 2. Navigate to the project directory
 
 ```bash
 cd laptop-price-prediction
 ```
 
-Install the required dependencies:
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -139,9 +139,9 @@ Predicted Laptop Price
 
 ## 🌐 Deployment
 
-The application is deployed using Render and is available online:
+The application is deployed using **Render** and is available online:
 
-### [🚀 Open Laptop Price Predictor](https://laptop-price-prediction-wiif.onrender.com/)
+### 🚀 [Open Laptop Price Predictor](https://laptop-price-prediction-wiif.onrender.com/)
 
 ## 📦 GitHub Repository
 
