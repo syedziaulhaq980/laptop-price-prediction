@@ -1,14 +1,14 @@
-# 💻 Laptop Price Prediction
+## 💻 Laptop Price Prediction
 
-A Machine Learning web application that predicts laptop prices based on hardware and configuration features. The application uses a trained machine learning model with an interactive Streamlit interface.
+A Machine Learning web application that predicts the estimated price of a laptop based on its hardware specifications and configuration.
 
-## 🚀 Live Demo
+The project uses a trained Machine Learning model with a Streamlit interface to provide interactive laptop price predictions.
 
-### [💻 Laptop Price Predictor](https://laptop-price-prediction-wiif.onrender.com/)
+# 🚀 Live Demo
 
-Try the live application directly in your browser.
+👉 Laptop Price Predictor
 
----
+Try the deployed application online.
 
 ## 📌 Project Overview
 
