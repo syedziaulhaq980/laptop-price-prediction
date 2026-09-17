@@ -1,288 +1,184 @@
-\# 💻 Laptop Price Prediction
+# 💻 Laptop Price Prediction
 
+A **Machine Learning web application** that predicts the estimated price of a laptop based on its hardware specifications and configuration.
 
+The project uses a trained Machine Learning model with a **Streamlit** interface to provide interactive laptop price predictions.
 
-A Machine Learning web application that predicts laptop prices based on hardware and configuration features. The project uses a trained machine learning model and a Streamlit interface to provide interactive price predictions.
+---
 
+## 📌 Project Overview
 
+Laptop prices vary depending on specifications such as:
 
-\## 📌 Project Overview
+* 🏢 Company / Brand
+* 💻 Laptop Type
+* 📏 Screen Size
+* 🧠 RAM
+* ⚙️ CPU
+* 🎮 GPU
+* 💾 Storage Capacity
+* 💽 Storage Type
+* 🖥️ Display Resolution
+* 🪟 Operating System
+* ⚖️ Weight
+* 👆 Touchscreen
+* 🎨 IPS Display
 
+This project processes these features and uses a trained Machine Learning model to estimate the price of a laptop.
 
+---
 
-Laptop prices depend on several factors such as:
+## 🚀 Features
 
+* Interactive **Streamlit web application**
+* Machine Learning based laptop price prediction
+* User-friendly input interface
+* Supports multiple laptop configurations
+* Pre-trained Machine Learning model
+* Dataset included in the repository
+* Easy to run locally
 
+---
 
-\* Brand
+## 🛠️ Technologies Used
 
-\* Laptop type
+| Technology          | Purpose              |
+| ------------------- | -------------------- |
+| 🐍 Python           | Programming language |
+| 🐼 Pandas           | Data processing      |
+| 🔢 NumPy            | Numerical operations |
+| 🤖 Scikit-learn     | Machine Learning     |
+| 🎈 Streamlit        | Web application      |
+| 📦 Pickle           | Model serialization  |
+| 📓 Jupyter Notebook | Model development    |
 
-\* Screen size
+---
 
-\* RAM
-
-\* Operating system
-
-\* Weight
-
-\* CPU
-
-\* GPU
-
-\* Storage capacity
-
-\* Storage type
-
-\* Display resolution
-
-\* Touchscreen support
-
-\* IPS display
-
-
-
-This project uses these features to predict the estimated price of a laptop.
-
-
-
-\## 🚀 Features
-
-
-
-\* Interactive Streamlit web application
-
-\* Laptop price prediction using a trained ML model
-
-\* User-friendly input interface
-
-\* Supports multiple laptop specifications
-
-\* Pre-trained model stored as a `.pkl` file
-
-\* Dataset included for reference
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\* Python
-
-\* Pandas
-
-\* NumPy
-
-\* Scikit-learn
-
-\* Streamlit
-
-\* Pickle
-
-\* Jupyter Notebook
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 laptop-price-prediction/
-
 │
-
 ├── app.py
-
-├── laptop\_price.csv
-
-├── laptop\_price\_model.pkl
-
+├── laptop_price.csv
+├── laptop_price_model.pkl
 ├── requirements.txt
-
 └── README.md
-
 ```
 
+### File Description
 
+| File                     | Description                    |
+| ------------------------ | ------------------------------ |
+| `app.py`                 | Streamlit web application      |
+| `laptop_price.csv`       | Laptop dataset                 |
+| `laptop_price_model.pkl` | Trained Machine Learning model |
+| `requirements.txt`       | Required Python libraries      |
+| `README.md`              | Project documentation          |
 
-\## 📊 Dataset
+---
 
-
+## 📊 Dataset
 
 The dataset contains laptop specifications and their corresponding prices.
 
+### Important Features
 
+| Feature            | Description           |
+| ------------------ | --------------------- |
+| `Company`          | Laptop manufacturer   |
+| `Product`          | Laptop model          |
+| `TypeName`         | Type of laptop        |
+| `Inches`           | Screen size           |
+| `Ram`              | RAM capacity          |
+| `OpSys`            | Operating system      |
+| `Weight`           | Laptop weight         |
+| `IPS`              | IPS display indicator |
+| `Touchscreen`      | Touchscreen indicator |
+| `Cpu`              | CPU information       |
+| `Gpu`              | GPU information       |
+| `Storage Capacity` | Storage size          |
+| `Storage Type`     | SSD, HDD, etc.        |
+| `Price_euros`      | Laptop price          |
 
-Important features include:
+---
 
+## ⚙️ Installation
 
-
-| Feature          | Description           |
-
-| ---------------- | --------------------- |
-
-| Company          | Laptop manufacturer   |
-
-| Product          | Laptop model          |
-
-| TypeName         | Type of laptop        |
-
-| Inches           | Screen size           |
-
-| Ram              | RAM in GB             |
-
-| OpSys            | Operating system      |
-
-| Weight           | Laptop weight         |
-
-| IPS              | IPS display indicator |
-
-| Touchscreen      | Touchscreen indicator |
-
-| Cpu Speed        | CPU speed             |
-
-| Gpu Brand        | GPU manufacturer      |
-
-| Storage Capacity | Storage size          |
-
-| Storage Type     | SSD, HDD, etc.        |
-
-| Price\_euros      | Laptop price          |
-
-
-
-\## ⚙️ Installation
-
-
-
-Clone the repository:
-
-
+### 1. Clone the Repository
 
 ```bash
-
 git clone https://github.com/syedziaulhaq980/laptop-price-prediction.git
-
 ```
 
-
-
-Move into the project directory:
-
-
+### 2. Navigate to the Project
 
 ```bash
-
 cd laptop-price-prediction
-
 ```
 
-
-
-Install the required dependencies:
-
-
+### 3. Install Dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
+---
 
+## ▶️ Run the Application
 
-\## ▶️ Run the Application
-
-
-
-Start the Streamlit application using:
-
-
+Start the Streamlit application:
 
 ```bash
-
 streamlit run app.py
-
 ```
 
+The application will open in your web browser.
 
+You can then enter the laptop specifications and receive an estimated price.
 
-The application will open in your browser.
+---
 
+## 🤖 Machine Learning Model
 
-
-\## 🤖 Machine Learning Model
-
-
-
-The trained model is saved as:
-
-
+The trained Machine Learning model is stored in:
 
 ```text
-
-laptop\_price\_model.pkl
-
+laptop_price_model.pkl
 ```
 
+The Streamlit application loads this model and uses the laptop specifications entered by the user to generate a predicted price.
 
-
-The Streamlit application loads this model and uses the user's laptop specifications to generate a predicted price.
-
-
-
-\## 📈 Example Workflow
-
-
+### Prediction Workflow
 
 ```text
-
 Laptop Specifications
-
-&#x20;       ↓
-
+        ↓
 Feature Processing
-
-&#x20;       ↓
-
+        ↓
 Trained ML Model
-
-&#x20;       ↓
-
+        ↓
 Price Prediction
-
-&#x20;       ↓
-
-Predicted Laptop Price
-
+        ↓
+Estimated Laptop Price
 ```
 
+---
 
+## 🌐 Project Repository
 
-\## 🌐 Project Repository
-
-
-
-GitHub:
-
-
-
+**GitHub:**
 https://github.com/syedziaulhaq980/laptop-price-prediction
 
+---
 
+## 👨‍💻 Author
 
-\## 👨‍💻 Author
+### Syed Zia Ul Haq
 
+Machine Learning & Data Science Project
 
+---
 
-\*\*Syed Zia Ul Haq\*\*
-
-
-
-Machine Learning / Data Science Project
-
-
+⭐ If you found this project useful, consider giving the repository a star!
 
